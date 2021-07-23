@@ -1,15 +1,30 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title> Avengers photo gallery and information </title>
-    <link rel="stylesheet" href="style.css">
+	<title>C85</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 
-<body>
-    <h1> Avengers photo gallery and information</h1>
-    <a href="https://en.wikipedia.org/wiki/Captain_America"><img src="https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg"></a>
-    <a href="https://en.wikipedia.org/wiki/Iron_Man"><img src="https://static.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/51ce617be4b0d911b4495a70/1361840848207/1000w/header-spoilerishly-awesome-iron-man-3-story-details.jpg"></a>
-    <a href="https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)#:~:text=The%20first%20and%20best%2Dknown,evening%20wear%20and%20a%20veil."><img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Black_Widow_1.png"></a>
-</body>
+<body class="body_background">
+ <center>
+	<h2 class="btn-primary">SUPERHERO</h2>
 
+	<div id="head_info" class="btn-danger">
+		<h3>Current Width  = <span id="current_width">30</span> </h3>
+		<h3>Current Height  = <span id="current_height">30</span> </h3>
+	</div>
+
+	<canvas width="1000" height="600" id="myCanvas"></canvas>
+
+ </center>
+	<script src="main.js"></script>
+</body>
 </html>
